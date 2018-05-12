@@ -1,0 +1,37 @@
+composer.phar
+composer.lock
+
+vendor/
+extensions/
+node_modules/
+
+easyrdf/
+
+!.*
+.idea/
+
+selenium/configuration.yml
+tests/browser/.idea
+tests/browser/.bundle/*
+tests/browser/config/config.yml
+tests/phan/issues
+
+# Editors
+*.kate-swp
+*~
+\#*#
+.#*
+.*.swp
+.project
+.buildpath
+.classpath
+.settings
+cscope.files
+cscope.out
+*.orig
+## NetBeans
+nbproject*
+project.index
+## Sublime
+sublime-*
+sftp-config.json

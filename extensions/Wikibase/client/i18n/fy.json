@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin0van0der0vliet",
+			"PiefPafPier",
+			"Robin van der Vliet",
+			"Sjoerddebruin"
+		]
+	},
+	"wikibase-comment-update": "Item fan {{WBREPONAME}} bywurke",
+	"wikibase-dataitem": "{{WBREPONAME}}-item",
+	"wikibase-editlinks": "Keppelings bewurkje",
+	"wikibase-editlinkstitle": "Yntertaalkeppelings bewurkje",
+	"wikibase-linkitem-input-site": "Taal:",
+	"wikibase-rc-hide-wikidata": "{{WBREPONAME}} $1",
+	"wikibase-rc-hide-wikidata-hide": "ferbergje",
+	"wikibase-rc-hide-wikidata-show": "werjaan",
+	"wikibase-rc-wikibase-edit-letter": "D",
+	"wikibase-rc-wikibase-edit-title": "Bewurking fan {{WBREPONAME}}",
+	"wikibase-pageinfo-entity-id-none": "Gjin",
+	"wikibase-pageinfo-entity-usage-L": "Lebel: $1",
+	"wikibase-otherprojects": "Yn oare projekten"
+}

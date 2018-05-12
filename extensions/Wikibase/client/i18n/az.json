@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Interfase",
+			"Wertuose",
+			"Dağlı95",
+			"Serkanland"
+		]
+	},
+	"wikibase-after-page-move-queued": "Bu səhifə ilə əlaqəli olan [$1 {{WBREPONAME}} qeydi] tezliklə avtomatik dəyişdiriləcək. Nəzərə alın ki, bu, dərhal baş verməyə bilər.",
+	"wikibase-comment-update": "{{WBREPONAME}} elementi dəyişdirildi",
+	"wikibase-dataitem": "{{WBREPONAME}} elementi",
+	"wikibase-editlinks": "Keçidlərin redaktəsi",
+	"wikibase-editlinkstitle": "Dillərarası keçidləri redaktə et",
+	"wikibase-linkitem-addlinks": "Keçid əlavə et",
+	"wikibase-rc-hide-wikidata": "$1 {{WBREPONAME}}",
+	"wikibase-rc-hide-wikidata-hide": "Gizlət",
+	"wikibase-rc-hide-wikidata-show": "Göstər",
+	"wikibase-rc-show-wikidata-pref": "Son dəyişikliklərdə {{WBREPONAME}} dəyişikliklərini göstər",
+	"wikibase-rc-wikibase-edit-letter": "D",
+	"wikibase-rc-wikibase-edit-title": "{{WBREPONAME}} redaktəsi",
+	"wikibase-rcfilters-hide-wikibase-label": "{{WBREPONAME}} redaktələri",
+	"wikibase-pageinfo-entity-id": "Elementin {{WBREPONAME}} identifikatoru",
+	"wikibase-otherprojects": "Digər layihələr"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ruleset name="Wikibase">
+	<rule ref="./vendor/wikibase/wikibase-codesniffer/Wikibase"/>
+
+	<!-- Exceptions -->
+
+	<rule ref="Generic.Files.LineLength">
+		<properties>
+			<property name="lineLimit" value="140" />
+		</properties>
+		<exclude-pattern>view/resources/templates\.php</exclude-pattern>
+	</rule>
+
+	<rule ref="Generic.Classes.DuplicateClassName">
+		<exclude-pattern>Scribunto_LuaWikibaseLibraryTestCase</exclude-pattern>
+	</rule>
+	<rule ref="Generic.CodeAnalysis.UnconditionalIfStatement">
+		<exclude-pattern>WikibaseClient\.example\.php</exclude-pattern>
+	</rule>
+	<rule ref="Generic.Files.OneClassPerFile">
+		<exclude-pattern>Scribunto_LuaWikibaseLibraryTestCase</exclude-pattern>
+	</rule>
+	<rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses">
+		<exclude-pattern>Scribunto_LuaWikibaseLibraryTestCase</exclude-pattern>
+	</rule>
+	<rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
+		<exclude-pattern>Scribunto_LuaWikibase*Library</exclude-pattern>
+	</rule>
+
+	<!-- Additions -->
+
+	<!-- Metrics are intentionally not part of the base Wikibase CodeSniffer rule set. -->
+	<rule ref="Generic.Metrics.CyclomaticComplexity">
+		<properties>
+			<property name="complexity" value="16" />
+		</properties>
+		<exclude-pattern>(RdfWriterFactory|UrlSchemeValidators)</exclude-pattern>
+	</rule>
+	<rule ref="Generic.Metrics.NestingLevel" />
+
+	<file>.</file>
+	<exclude-pattern>view/lib/wikibase-api/WikibaseJavaScriptApi.php</exclude-pattern>
+	<exclude-pattern type="relative">^extensions/</exclude-pattern>
+</ruleset>

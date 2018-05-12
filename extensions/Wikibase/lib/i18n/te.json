@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven",
+			"Chaduvari"
+		]
+	},
+	"wikibase-error-remove-generic": "ఏదో లోపం కారణంగా తీసివేయలేకపోయాం.",
+	"wikibase-error-save-connection": "కనెక్షను లోపం కారణంగా భద్రపరచలేకపోయాం. మీ అంతర్జాల కనెక్షన్ను చెక్ చేసుకోండి.",
+	"wikibase-timedetails-time": "సమయం",
+	"wikibase-timedetails-timezone": "కాలమండలం",
+	"wikibase-timedetails-calendar": "క్యాలెండర్",
+	"wikibase-timedetails-before": "ముందు",
+	"wikibase-timedetails-after": "తర్వాత",
+	"wikibase-globedetails-longitude": "రేఖాంశం",
+	"wikibase-globedetails-latitude": "అక్షాంశం",
+	"wikibase-sitelinks-wikipedia": "వికీపీడియా",
+	"wikibase-sitelinks-sitename-columnheading": "భాష",
+	"wikibase-tooltip-error-details": "వివరాలు",
+	"wikibase-validator-invalid": "చెల్లని విలువ",
+	"datatypes-type-string": "పదబంధం",
+	"datatypes-type-quantity": "రాశి",
+	"datatypes-type-number": "సంఖ్య",
+	"datatypes-type-mediawiki-title": "మీడియావికీ శీర్షిక",
+	"datatypes-type-time": "సమయం",
+	"datatypes-type-wikibase-item": "అంశం",
+	"datatypes-type-wikibase-property": "లక్షణం"
+}

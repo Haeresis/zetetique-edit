@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sindhu",
+			"Mehtab ahmed",
+			"Aursani",
+			"Indus Asia"
+		]
+	},
+	"tooltip-t-wikibase": "اعدادخاني ۾ موجود لاڳاپيل اسم سان ڳنڍيو",
+	"wikibase-comment-update": "{{WBREPONAME}} اسم تبديل ٿيو",
+	"wikibase-dataitem": "{{WBREPONAME}} اسم",
+	"wikibase-editlinks": "ڳنڍڻن کي سنواريو",
+	"wikibase-editlinkstitle": "بين‌الزباني ڳنڍڻا سنواريو",
+	"wikibase-addlinkstitle": "بين الزبان ڳنڍڻا وجھو",
+	"wikibase-linkitem-addlinks": "ڳنڍڻا وجھو",
+	"wikibase-linkitem-close": "بند ڪري صفحي کي تازو ڪريو",
+	"wikibase-linkitem-title": "صفحي سان ڳنڍيو",
+	"wikibase-linkitem-linkpage": "صفحي سان ڳنڍيو",
+	"wikibase-linkitem-selectlink": "ھن صفحي کي توھان جنھن سائيٽ ۽ صفحي سان ڳنڍڻ چاھيو ٿا، مھرباني ڪري ان کي چونڊيو.",
+	"wikibase-linkitem-confirmitem-button": "پڪ ڪريو",
+	"wikibase-linkitem-success-link": "صفحا ڳنڍيا ويا آھن. توھان انھن ڳنڍڻ تي مشتمل آئٽم اسان جي [$1 مرڪزي ڊيٽا ذخيري] ۾ ڏسي سگھو ٿا.",
+	"wikibase-rc-hide-wikidata": "$1 {{WBREPONAME}}",
+	"wikibase-rc-hide-wikidata-hide": "لڪايو",
+	"wikibase-rc-hide-wikidata-show": "ڏيکاريو",
+	"wikibase-rc-wikibase-edit-letter": "ڊ",
+	"wikibase-rc-wikibase-edit-title": "{{WBREPONAME}} ترميم",
+	"wikibase-rcfilters-hide-wikibase-description": "{{WBREPONAME}} تي وجود وٺندڙ ترميمون.",
+	"wikibase-replicationnote": "مھرباني ڪري اھو ياد رھي تہ سڀني وڪين تي تبديليون نظر اچڻ ۾ ڪجھ منٽن جو وقت لڳي سگھي ٿو.",
+	"wikibase-unconnectedpages-submit": "صفحا ڏيکاريو",
+	"wikibase-otherprojects": "ٻين رٿائن ۾"
+}

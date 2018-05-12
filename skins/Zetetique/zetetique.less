@@ -1,0 +1,342 @@
+@import (css) 'https://fonts.googleapis.com/css?family=Lato';
+
+body {
+	background-color: #303d4d;
+	overflow-x: hidden;
+	background-image: url('/resources/assets/zetetique-background.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+}
+
+#mw-page-base {
+	background-color: transparent;
+	background-image: none;
+}
+
+div#mw-panel div.portal h3,
+div#footer ul li {
+	color: #777;
+}
+
+#mw-navigation {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#footer a,
+#p-personal a {
+	color: #bbb;
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	&:visited {
+		color: #999;
+		&:hover {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+div#p-namespaces,
+div#p-views,
+div#p-variants {
+	top: calc(~'2.5em + 7px');
+	left: 0px;
+}
+
+div#simpleSearch {
+	margin-top: 0;
+}
+
+#p-search {
+	margin-right: 0.5em;
+}
+
+#p-search form,
+#p-search input {
+	margin-top: 0;
+}
+
+#ca-watch.icon a {
+	padding-top: 28px;
+}
+#ca-unwatch.icon a {
+	padding-top: 28px;
+}
+
+div#mw-head div.vectorMenu h3 {
+	background-image: none;
+}
+
+div#simpleSearch {
+	border: 1px solid #fff;
+}
+
+div.vectorTabs ul {
+	margin-left: -8px;
+}
+
+@media screen and (min-width: 720px) {
+	#mw-page-base {
+		height: 10em;
+	}
+	#left-navigation {
+		margin-top: calc(~'7.5em + 7px');
+	}
+	#right-navigation {
+		margin-top: calc(~'7.5em + 7px');
+	}
+	div#p-cactions {
+		margin-left: 1px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	div#p-cactions {
+		top: calc(~'3em - 1px');
+	}
+	div#p-search {
+		margin-top: 10px;
+	}
+}
+
+#mw-head {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	@media screen and (max-width: 720px) {
+		margin-top: 0;
+		padding: 8px;
+	}
+}
+
+div#mw-head {
+	z-index: 1;
+}
+
+div#mw-panel {
+	z-index: 2;
+}
+
+#p-personal {
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #333;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+	padding: 8px;
+	text-align: center;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+
+	ul {
+		padding-left: 0;
+		display: inline-block;
+		@media screen and (max-width: 720px) {
+			font-size: 1.5em;
+		}
+		@media screen and (min-width: 720px) {
+			display: block;
+			text-align: right;
+		}
+	}
+
+	li {
+		margin-top: 0;
+		margin-bottom: 0;
+		float: none;
+		@media screen and (min-width: 720px) {
+			display: inline-block;
+		}
+		@media screen and (max-width: 720px) {
+			padding-top: 4.5px;
+			padding-bottom: 4.5px;
+		}
+	}
+
+	h3 {
+		@media screen and (max-width: 720px) {
+			color: #777;
+			display: block;
+			text-align: left;
+			border-bottom: 1px solid #777;
+		}
+	}
+}
+
+div#mw-head h3 {
+	@media screen and (max-width: 720px) {
+		margin-bottom: 8px;
+	}
+}
+
+.mw-body {
+	border: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.8);
+	margin-left: 0;
+	padding-left: 11em;
+}
+
+div#content {
+	@media screen and (max-width: 720px) {
+		padding-left: 1em;
+	}
+}
+
+div.vectorTabs span {
+	background-image: none;
+}
+
+div#footer {
+	margin-left: 0;
+	position: relative;
+}
+
+body.ltr div#footer #footer-places {
+	@media screen and (min-width: 720px) {
+		position: absolute;
+		top: 9px;
+		right: 0;
+	}
+}
+
+div#footer #footer-icons {
+	@media screen and (min-width: 720px) {
+		position: absolute;
+		top: 32px;
+		right: 8px;
+	}
+}
+
+.mw-body,
+.parsoid-body {
+	min-height: 400px;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.9) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.9) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+div#mw-panel div.portal div.body ul li a,
+#right-navigation a,
+#left-navigation a,
+.mw-input a,
+.mw-editsection a,
+a {
+	color: #3366bb;
+
+	&:hover {
+		color: rgb(0, 0, 238);
+		text-decoration: none;
+	}
+
+	&:visted {
+		color: #636;
+
+		&:hover {
+			color: rgb(0, 0, 238);
+			text-decoration: none;
+		}
+	}
+}
+
+body, #firstHeading,
+p,
+.mw-body h1,
+.mw-body-content h1,
+.mw-body-content h2 {
+	font-family: Lato, Arial, sans-serif;
+}
+
+div.vectorTabs ul {
+	background-image: none;
+}
+
+div.vectorTabs {
+	background-image: none;
+}
+
+div.vectorTabs ul li + li {
+	margin-left: 1px;
+}
+
+div.vectorTabs ul li,
+div.vectorTabs li.selected {
+	background-color: rgba(255,255,255,0.9);
+	background-image: none;
+}
+
+div.vectorMenu h3 span,
+div.vectorTabs ul li {
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.6) 40%, rgba(255,255,255,0.9) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.6) 40%,rgba(255,255,255,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.6) 40%,rgba(255,255,255,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+div.vectorMenu h3 span {
+	position: relative;
+}
+div.vectorMenu h3 span::after {
+	content: '▼';
+	display: block;
+	position: absolute;
+	right: 6px;
+	top: 7px;
+	color: #777;
+}
+
+div.vectorMenu h3 span,
+div.vectorTabs span a {
+	padding-top: 0.5em;
+}
+
+div.vectorMenu h3 span,
+div.vectorTabs {
+	height: 2em;
+}
+
+div.vectorMenu div.menu {
+	top: 2em;
+}
+
+.bandeau-article,
+.bandeau-discussion,
+.bandeau-simple,
+.bandeau-systeme,
+.bandeau-section {
+	border-style: solid;
+	overflow: hidden;
+	position: relative;
+}
+
+.bandeau-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.bandeau-article {
+	border-width: 1px 1px 1px 10px;
+	font-size: 0.9em;
+	line-height: 1.25em;
+	padding: 0.5em 1em;
+	margin: 0.8em 10%;
+}
+
+.bandeau-niveau-ebauche,
+.bandeau-niveau-information {
+	border-color: #77ccff;
+	background-color: #fbfbfb;
+}
+
+.bandeau-icone {
+	vertical-align: middle;
+	text-align: center;
+	width: 45px;
+	padding-right: 1em;
+}

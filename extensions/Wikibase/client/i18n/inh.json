@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adam-Yourist",
+			"Умар",
+			"ElizaMag"
+		]
+	},
+	"tooltip-t-wikibase": "Репозиторен дарий вIашагIювзаенна элемента тIахьожаярг",
+	"wikibase-comment-update": "Элемент {{grammar:genitive|{{WBREPONAME}}}} хийцай",
+	"wikibase-dataitem": "{{grammar:genitive|{{WBREPONAME}}}} чура элемент",
+	"wikibase-editlinks": "ТIахьожаяргаш тоаяр",
+	"wikibase-editlinkstitle": "Меттий юкъера тIахьожаяргаш тоаяр",
+	"wikibase-linkitem-input-page": "ОагIув:",
+	"wikibase-rc-hide-wikidata": "$1 {{WBREPONAME}}",
+	"wikibase-rc-hide-wikidata-hide": "Къайладаккха",
+	"wikibase-rc-hide-wikidata-show": "Хьахьокха",
+	"wikibase-rc-wikibase-edit-letter": "д",
+	"wikibase-rc-wikibase-edit-title": "{{grammar:genitive|{{WBREPONAME}}}} нийсдар",
+	"wikibase-otherprojects": "Кхыйола проекташ чу"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"VASANTH S.N.",
+			"రహ్మానుద్దీన్",
+			"Vishwanatha Badikana",
+			"BHARATHESHA ALASANDEMAJALU",
+			"Kiranpoojary",
+			"Ladsgroup"
+		]
+	},
+	"wikibase-edit": "ಸಂಪೊಲಿಪುಲೆ",
+	"wikibase-add": "ಸೇರಾಲೆ",
+	"wikibase-entitytermsforlanguagelistview-less": "ಬೇತೆ ಬಾಸೆಲೆಡ್",
+	"wikibase-label-empty": "ಲೇಬಲ್ ಉಲ್ಲೇಕೊ ಆತಿಜಿ",
+	"wikibase-description-empty": "ಒವ್ವೇ ವಿವರಣೆ ಇಜ್ಜಿ",
+	"wikibase-content-language-edit-label": "ಬಾಸೆ:",
+	"wikibase-diffview-link-name": "ಪುದರ್",
+	"wikibase-sitelink-site-edit-placeholder": "ವಿಕಿ",
+	"wikibase-statementsection-statements": "ಪಾತೆರೊಲು",
+	"wikibase-sitelinks-special": "ಬೇತೆ ತಾನೊಲು",
+	"wikibase-statementview-rank-normal": "ಸಾದಾರಣೊ ಶ್ರೇಣಿ",
+	"wikibase-statementview-references-counter": "$1 {{PLURAL:$1|ಉಲ್ಲೇಕೊ|ಉಲ್ಲೇಕೊಲು}}"
+}
